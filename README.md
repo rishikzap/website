@@ -8,10 +8,10 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 #### Installing MAMP
 * Download [MAMP](https://www.mamp.info/en/downloads/) from here
+* Once installed, open MAMP (not MAMP Pro)
 * Click on ```Start servers```
 * Once the button turns green, a new tab should open in your browser, if not click ```Open WebStart page```
-* Your tab should look like this: <br>
-![WebStart page](https://www.taniarascia.com/static/e6ba70f5258606e164b5bb657544ab82/91e7e/Screen-Shot-2015-10-16-at-9.52.42-PM.png)
+* Your tab should have the Welcome to MAMP message along with your version number (5.7 as of this writing)
 
 ### Installing
 
