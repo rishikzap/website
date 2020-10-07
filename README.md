@@ -21,8 +21,8 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 #### Connecting MAMP to Your Project Directory
 * Open MAMP and start the servers as above, leading you to the same welcome page
-* Go to ```MAMP > Preferences > Web Server > Select``` and select your project directory, then click OK
-* Go back to the welcome page tab on your browser and click on the link that says ```phpMyAdmin```
+* Go to ```MAMP > Preferences > Web Server > Select``` and select your project directory, then click OK and reload the welcome page
+* Click ```Open WebStart page``` and on the welcome page tab in your browser and click on the link that says ```phpMyAdmin```
 * In the newly opened page, click on the ```Databases``` tab
 * Under ```Create database``` enter the name of your database and click ```Create```
 
