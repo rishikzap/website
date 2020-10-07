@@ -1,7 +1,5 @@
 # <img src="https://i.imgur.com/CIcpjIc.png" width="10%">&nbsp;Cornell Business Review Website
 
-## Getting Started
-
 ## Setting Up Your Environment
 
 #### Installing MAMP
