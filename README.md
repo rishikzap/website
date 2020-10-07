@@ -4,7 +4,7 @@
 
 #### Installing WordPress
 * Create an empty directory on your computer to store this project
-* Download [Wordpress](https://wordpress.org/download/) from here
+* Download [WordPress](https://wordpress.org/download/) from here
 * Unzip the download and place all the unzipped files into the directory you created earlier
 
 #### Installing MAMP
