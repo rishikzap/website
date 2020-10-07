@@ -2,17 +2,17 @@
 
 ## Setting Up Your Environment
 
+#### Installing WordPress
+* Create an empty directory on your computer to store this project
+* Download [Wordpress](https://wordpress.org/download/) from here
+* Unzip the download and place all the unzipped files into the directory you created earlier
+
 #### Installing MAMP
 * Download [MAMP](https://www.mamp.info/en/downloads/) from here
 * Once installed, open MAMP (not MAMP Pro)
 * Click on ```Start Servers```
 * Once the button turns green, a new tab should open in your browser, if not click ```Open WebStart page```
 * Your tab should have the Welcome to MAMP message along with your version number (5.7 as of this writing)
-
-#### Installing WordPress
-* Create an empty directory on your computer to store this project
-* Download [Wordpress](https://wordpress.org/download/) from here
-* Unzip the download and place all the unzipped files into the directory you created earlier
 
 #### Connecting MAMP to Your Project Directory
 * Open MAMP and start the servers as above, leading you to the same welcome page
