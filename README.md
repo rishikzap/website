@@ -4,7 +4,7 @@
 
 https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
-### Prerequisites
+### Setting up Your Environment
 
 #### Installing MAMP
 * Download [MAMP](https://www.mamp.info/en/downloads/) from here
@@ -13,24 +13,10 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 * Once the button turns green, a new tab should open in your browser, if not click ```Open WebStart page```
 * Your tab should have the Welcome to MAMP message along with your version number (5.7 as of this writing)
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+#### Installing WordPress
+* Create an empty directory on your computer for to store this project
+* Download [Wordpress](https://wordpress.org/download/) from here
+* Unzip the download and place all the unzipped files into the directory you created earlier
 
 ## Built With
 
