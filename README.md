@@ -33,7 +33,7 @@ To get your environment up and running:
 * In a new tab, go to ```localhost:8888/wp-admin```
 * Enter your WordPress credentials
 
-## Version Control
+## Setting Up Version Control
 To keep in sync with this remote repository:
 * Navigate to your project directory using the command line
 * Run the command ```git clone https://github.com/Cornell-Business-Review/website.git```
