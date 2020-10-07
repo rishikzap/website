@@ -41,9 +41,9 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* [**Rishik Zaparde**](https://github.com/rishikzap)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/orgs/Cornell-Business-Review/people) who participated in this project.
 
 ## License
 
