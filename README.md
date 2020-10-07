@@ -19,10 +19,12 @@
 * In MAMP, click on ```Open WebStart page``` and on the welcome page tab in your browser and click on the link that says ```phpMyAdmin```
 * In the newly opened page, click on the ```Databases``` tab
 * Under ```Create database``` enter the name of your database and click ```Create```
+* You can now close this tab
 
 #### Setting Up WordPress
 * In a new tab, go to ```localhost:8888```
-* From there you should be prompted to select a language, create a login, and perform a few tasks to set up your WordPress account
+* From there you should be prompted to select a language and choose a database name (which should have the same name as the one that you created in phpMyAdmin, username: root, password: root, leaving everything else the same
+* After that you have to enter a site title and set up login credentials for your local WordPress website (which you must remember) 
 * Finally, you should be able to access the WordPress backend console
 
 ## Starting Up Your Environment
