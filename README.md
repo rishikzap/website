@@ -1,18 +1,17 @@
 # Cornell Business Review Website
 
-One Paragraph of project description goes here
-
 ## Getting Started
 
 https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+#### Installing MAMP
+* Download [MAMP](https://www.mamp.info/en/downloads/) from here
+* Click on ```Start servers```
+* Once the button turns green, a new tab should open in your browser, if not click ```Open WebStart page```
+* Your tab should look like this: <br>
+![WebStart page](https://www.taniarascia.com/static/e6ba70f5258606e164b5bb657544ab82/91e7e/Screen-Shot-2015-10-16-at-9.52.42-PM.png)
 
 ### Installing
 
