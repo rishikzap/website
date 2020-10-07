@@ -36,9 +36,9 @@ To get your environment up and running:
 ## Setting Up Version Control
 To keep in sync with this remote repository:
 * Navigate to your project directory using the command line
-* Run the command ```git clone https://github.com/Cornell-Business-Review/website.git```
+* Run the command ```git clone https://github.com/Cornell-Business-Review/website.git```, which downloads a new file named ```website```
 * Delete your existing ```wp-content``` file from the project directory
-* Rename the newly downloaded file ```wp-content```
+* Rename the newly downloaded file (named ```website```) ```wp-content```
 * You only need to do the above steps once, after that you can run ```git pull``` from the command line to merge in new changes and ```git push``` to push your new changes
 * Note: we will only be working with the ```wp-content``` file for version control, all other files are core code which should not be touched or pushed to this repo
 
