@@ -33,6 +33,14 @@ To get your environment up and running:
 * In a new tab, go to ```localhost:8888/wp-admin```
 * Enter your WordPress credentials
 
+## Version Control
+To keep in sync with this remote repository:
+* Navigate to your project directory using the command line
+* Run the command ```git clone https://github.com/Cornell-Business-Review/website.git```
+* Delete your existing ```wp-content``` file from the project directory
+* Rename the newly downloaded file ```wp-content```
+* Note: we will only be working with the ```wp-content``` file for version control, all other files are core code which should not be touched or pushed to this repo
+
 ## Authors
 
 * [**Rishik Zaparde**](https://github.com/rishikzap)
