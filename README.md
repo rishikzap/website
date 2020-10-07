@@ -1,16 +1,13 @@
 # <img src="https://i.imgur.com/CIcpjIc.png" width="10%">&nbsp;Cornell Business Review Website
 
-
 ## Getting Started
-
-https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 ### Setting Up Your Environment
 
 #### Installing MAMP
 * Download [MAMP](https://www.mamp.info/en/downloads/) from here
 * Once installed, open MAMP (not MAMP Pro)
-* Click on ```Start servers```
+* Click on ```Start Servers```
 * Once the button turns green, a new tab should open in your browser, if not click ```Open WebStart page```
 * Your tab should have the Welcome to MAMP message along with your version number (5.7 as of this writing)
 
@@ -31,11 +28,11 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 * From there you should be prompted to select a language, create a login, and perform a few tasks to set up your WordPress account
 * Finally, you should be able to access the WordPress backend console
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Starting Up Your Environment
+To get your environment up and running:
+* Launch MAMP and click on ```Start Servers```
+* In a new tab, go to ```localhost:8888/wp-admin```
+* Enter your WordPress credentials
 
 ## Authors
 
