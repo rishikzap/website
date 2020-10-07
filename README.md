@@ -16,7 +16,6 @@
 * Your tab should have the Welcome to MAMP message along with your version number (5.7 as of this writing)
 
 #### Connecting MAMP to Your Project Directory
-* Open MAMP and start the servers as above, leading you to the same welcome page
 * In MAMP, click on ```Open WebStart page``` and on the welcome page tab in your browser and click on the link that says ```phpMyAdmin```
 * In the newly opened page, click on the ```Databases``` tab
 * Under ```Create database``` enter the name of your database and click ```Create```
