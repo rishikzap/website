@@ -24,7 +24,7 @@
 <div class="blog-masthead">
 	<div class="nav-container">
 		<nav class="blog-nav">
-      <img src="wp-content/uploads/2020/10/cbr-logo.png" alt="CBR logo"> 
+      <img src="http://localhost:8888/wp-content/uploads/2020/10/cbr-logo.png" alt="CBR logo"> 
       <div class="other-links">
         <?php wp_list_pages( '&title_li=' ); ?>
       </div>
