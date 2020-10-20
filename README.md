@@ -4,7 +4,7 @@
 
 #### Installing WordPress
 * Create an empty directory on your computer to store this project
-* Download [Wordpress](https://wordpress.org/download/) from here
+* Download [WordPress](https://wordpress.org/download/) from here
 * Unzip the download and place all the unzipped files into the directory you created earlier
 
 #### Installing MAMP
@@ -32,6 +32,15 @@ To get your environment up and running:
 * Launch MAMP and click on ```Start Servers```
 * In a new tab, go to ```localhost:8888/wp-admin```
 * Enter your WordPress credentials
+
+## Setting Up Version Control
+To keep in sync with this remote repository:
+* Navigate to your project directory using the command line
+* Run the command ```git clone https://github.com/Cornell-Business-Review/website.git```, which downloads a new folder named ```website```
+* Delete your existing ```wp-content``` folder from the project directory
+* Rename the newly downloaded folder (named ```website```) to ```wp-content```
+* You only need to do the above steps once, after that you can run ```git pull``` from the command line to merge in new changes and ```git push``` to push your new changes
+* Note: we will only be working with the ```wp-content``` folder and its contents for version control, all other files are core code which should not be touched or pushed to this repo
 
 ## Authors
 
