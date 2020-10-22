@@ -1,0 +1,18 @@
+div.container {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.navbar {
+  margin-top: 1em;
+  padding-left: 0;
+  background-color: white;
+}
+
+.collapse {
+  padding-top: 2em;
+}
+
+.bg-light {
+  background-color: white;
+}
