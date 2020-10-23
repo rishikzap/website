@@ -16,3 +16,7 @@ div.container {
 .bg-light {
   background-color: white;
 }
+
+.nav-link {
+  font-size: 1em;
+}
