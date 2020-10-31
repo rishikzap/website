@@ -19,7 +19,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="http://localhost:8888/">
-      <img src="/wp-content/uploads/2020/10/cbr-logo.png" width="100" height="100" alt="">
+      <img src="http://localhost:8888/wp-content/uploads/2020/10/CBR_Logo.png" width="100" height="100" alt="">
     </a>
         <?php
         wp_nav_menu( array(
