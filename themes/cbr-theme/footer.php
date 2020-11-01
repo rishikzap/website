@@ -13,8 +13,6 @@
 
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
       <!-- Grid column -->
       <div class="col-md-4 mx-auto ">
 
@@ -36,8 +34,6 @@
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
       <!-- Grid column -->
       <div class="col-md-4 mx-auto">
 
@@ -58,8 +54,6 @@
 
       </div>
       <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
       <div class="col-md-4 mx-auto">

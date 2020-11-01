@@ -53,3 +53,11 @@ a {
 .navbar-collapse.in {
   display: block !important;
 }
+
+.list-unstyled {
+  font-weight: lighter;
+}
+
+.list-unstyled > li {
+  margin-top: 0.5em;
+}
