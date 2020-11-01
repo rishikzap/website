@@ -1,10 +1,12 @@
-</div> <!-- /.container -->
+<link href="<?php echo get_bloginfo('template_directory'); ?>/after.css" rel="stylesheet">
 
+</div> <!-- /.container -->
+<hr />
 <!-- Footer -->
 <footer class="page-footer font-small indigo">
 
   <!-- Footer Links -->
-  <div class="container text-md-left">
+  <div class="container text-md-left" id="footer-container">
 
     <!-- Grid row -->
     <div class="row">
@@ -14,20 +16,20 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto border">
+      <div class="col-md-4 mx-auto ">
 
         <!-- Links -->
         <h5 class="font-weight-bold mt-3 mb-4">Read More</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">CBR Now</a>
+            <a href="http://localhost:8888/cbr-now/">CBR Now</a>
           </li>
           <li>
-            <a href="#!">Articles</a>
+            <a href="http://localhost:8888/articles/">Articles</a>
           </li>
           <li>
-            <a href="#!">Past Issues</a>
+            <a href="http://localhost:8888/past-issues/">Past Issues</a>
           </li>
         </ul>
 
@@ -37,20 +39,20 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto border">
+      <div class="col-md-4 mx-auto">
 
         <!-- Links -->
         <h5 class="font-weight-bold mt-3 mb-4">About Us</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Our Team</a>
+            <a href="http://localhost:8888/we-are-cbr/">Our Team</a>
           </li>
           <li>
             <a href="#!">Advertise With Us</a>
           </li>
           <li>
-            <a href="#!">Other Inquiries</a>
+            <a href="http://localhost:8888/contact/">Other Inquiries</a>
           </li>
         </ul>
 
@@ -60,23 +62,20 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto border">
+      <div class="col-md-4 mx-auto">
 
         <!-- Links -->
         <h5 class="font-weight-bold mt-3 mb-4 ">Connect With Us!</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Facebook</a>
+            <a href="https://www.facebook.com/CornellBusinessReview/">Facebook</a>
           </li>
           <li>
-            <a href="#!">Instagram</a>
+            <a href="https://www.instagram.com/cornell_business_review/">Instagram</a>
           </li>
           <li>
-            <a href="#!">Contact</a>
-          </li>
-          <li>
-            <a href="#!">Help</a>
+            <a href="http://localhost:8888/contact/">Contact</a>
           </li>
         </ul>
 
@@ -98,7 +97,6 @@
 <!-- Footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <?php wp_footer(); ?>
   </body>
 </html>

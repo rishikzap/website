@@ -44,3 +44,12 @@ div.container {
 .navbar-collapse.in {
   display: block !important;
 }
+
+a {
+  color: black;
+}
+
+#footer-container {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
