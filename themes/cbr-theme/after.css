@@ -40,6 +40,9 @@ div.container {
     padding-top: 0;
     margin-right: 0;
   }
+  #footer-container {
+    text-align: center !important;
+  }
 }
 
 a {
@@ -80,6 +83,6 @@ a {
 }
 
 #feature-image {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
