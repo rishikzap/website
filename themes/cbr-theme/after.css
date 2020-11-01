@@ -8,6 +8,7 @@ div.container {
   background-color: white;
   padding-right: 0;
   padding-top: 0;
+  padding-bottom: 0 !important;
 }
 
 .bg-light {
@@ -51,7 +52,7 @@ a {
 }
 
 .list-unstyled {
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 .list-unstyled > li {
@@ -60,4 +61,25 @@ a {
 
 .navbar-collapse.in {
   display: block !important;
+}
+
+.blog-post > p {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.blog-post > h2 {
+  margin-left: 2.5em;
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+.col-sm-12 {
+  padding-right: 0;
+}
+
+#feature-image {
+  width: 100%;
+  height: auto;
 }

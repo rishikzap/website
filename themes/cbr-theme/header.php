@@ -17,10 +17,10 @@
 <nav class="navbar navbar-expand-md navbar-light" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+    <button class="navbar-toggler" style="padding-bottom:0px" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="http://localhost:8888/">
+    <a class="navbar-brand" href="http://localhost:8888/" style="padding-bottom: 0px">
       <img src="http://localhost:8888/wp-content/uploads/2020/10/CBR_Logo.png" width="100" height="100" alt="">
     </a>
         <?php
