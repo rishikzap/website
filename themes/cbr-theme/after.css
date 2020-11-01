@@ -41,10 +41,6 @@ div.container {
   }
 }
 
-.navbar-collapse.in {
-  display: block !important;
-}
-
 a {
   color: black;
 }
@@ -52,4 +48,8 @@ a {
 #footer-container {
   margin-right: auto !important;
   margin-left: auto !important;
+}
+
+.navbar-collapse.in {
+  display: block !important;
 }
