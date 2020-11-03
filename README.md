@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/CIcpjIc.png" width="10%">&nbsp;Cornell Business Review Website
+# <img src="https://i.imgur.com/8eop9wn.png" width="10%">&nbsp;Cornell Business Review Website
 
 ## Setting Up Your Environment
 
