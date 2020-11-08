@@ -15,14 +15,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <nav class="navbar navbar-expand-md navbar-light" role="navigation">
-  <div class="container">
+  <div class="container menu">
     <!-- Brand and toggle get grouped for better mobile display -->
     <button class="navbar-toggler" style="padding-bottom:0px" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="http://localhost:8888/" style="padding-bottom: 0px">
-      <img src="http://localhost:8888/wp-content/uploads/2020/10/CBR_Logo.png" width="100" height="100" alt="">
-    </a>
+	  <div class="nav-logo">
+		  <a class="navbar-brand" href="http://localhost:8888/">
+			  <img src="http://localhost:8888/wp-content/uploads/2020/10/CBR_Logo.png" width="100" height="100" alt="">
+		  </a>
+	  </div>
         <?php
         wp_nav_menu( array(
             'theme_location'    => 'primary',
@@ -35,6 +37,7 @@
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );
         ?>
+	  <a class="subscribe" href="http://localhost:8888/subscribe/"><span>Subscribe</span></a>
   </div>
 </nav>
 
