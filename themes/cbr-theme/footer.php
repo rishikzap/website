@@ -84,10 +84,10 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="https://www.facebook.com/CornellBusinessReview/">Facebook</a>
+            <a href="https://www.facebook.com/CornellBusinessReview/" target="_blank">Facebook</a>
           </li>
           <li>
-            <a href="https://www.instagram.com/cornell_business_review/">Instagram</a>
+            <a href="https://www.instagram.com/cornell_business_review/" target="_blank">Instagram</a>
           </li>
           <li>
             <a href="http://localhost:8888/contact/">Contact</a>
