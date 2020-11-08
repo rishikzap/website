@@ -37,7 +37,7 @@
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );
         ?>
-	  <a class="subscribe" href="http://localhost:8888/subscribe/"><span>Subscribe</span></a>
+	  <a class="subscribe" href="https://cornellbusinessreview.us15.list-manage.com/subscribe/post?u=63b4b7dfde08c73d5802250bd&id=f8da616b72"><span>Subscribe</span></a>
   </div>
 </nav>
 
