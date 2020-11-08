@@ -45,6 +45,10 @@ To keep in sync with this remote repository:
 ## Authors
 
 * [**Rishik Zaparde**](https://github.com/rishikzap)
+* [**Helen Wang**](https://github.com/wanghel)
+* [**Nicole Hu**](https://github.com/nsh64)
+
+
 
 See also the list of [contributors](https://github.com/orgs/Cornell-Business-Review/people) who participated in this project.
 
