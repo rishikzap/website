@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Caslon;
+  src: url(ACaslonPro-Regular.otf);
+}
+
 div.container {
   margin-left: 0em;
   padding-left: 0;
@@ -65,6 +70,11 @@ div.container {
   align-items: flex-end;
 }
 
+#feature-image {
+  width: 75vw;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   /*   .nav-link {
     padding-top: 2em;
@@ -106,6 +116,11 @@ div.container {
     padding-left: 0;
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  #feature-image {
+    width: 100vw;
+    height: auto;
   }
 }
 
@@ -159,6 +174,10 @@ a {
   margin-right: 5em;
 }
 
+.blog-post > p {
+  font-family: Caslon;
+}
+
 .blog-post > h2 {
   margin-left: 2.5em;
   margin-right: 2.5em;
@@ -169,11 +188,6 @@ a {
 
 .col-sm-12 {
   padding-right: 0;
-}
-
-#feature-image {
-  width: 80vw;
-  height: auto;
 }
 
 .row {
@@ -214,4 +228,8 @@ a[rel="tag"] {
   float: left;
   text-align: left;
   padding: 5px;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: rgb(123, 22, 29);
 }
