@@ -3,6 +3,11 @@
   src: url(ACaslonPro-Regular.otf);
 }
 
+@font-face {
+  font-family: Din;
+  src: url(D-DIN.otf);
+}
+
 div.container {
   margin-left: 0em;
   padding-left: 0;
@@ -71,7 +76,7 @@ div.container {
 }
 
 #feature-image {
-  width: 75vw;
+  width: 100vw;
   height: auto;
 }
 
@@ -86,42 +91,6 @@ div.container {
   .navbar-brand {
     padding-top: 0;
   } */
-}
-
-@media (max-width: 992px) {
-  .nav-link {
-    /*     padding-top: 1.1em;
-    font-size: 0.9em; */
-  }
-  .navbar-brand {
-    padding-top: 0;
-    margin-right: 0;
-  }
-  #footer-container {
-    text-align: center !important;
-    padding-right: 0;
-  }
-  .blog-post > h2 {
-    margin-left: 0.75em;
-    margin-right: 2em;
-    font-size: 1.5em;
-    font-weight: 300;
-    margin-top: 1em;
-  }
-  .blog-post > p {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-  #horizontal-list {
-    padding-left: 0;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-
-  #feature-image {
-    width: 100vw;
-    height: auto;
-  }
 }
 
 /* Condensed menu */
@@ -170,8 +139,8 @@ a {
 }
 
 .blog-post > p {
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 12em;
+  margin-right: 12em;
 }
 
 .blog-post > p {
@@ -179,8 +148,9 @@ a {
 }
 
 .blog-post > h2 {
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  font-family: Din;
+  margin-left: 6em;
+  margin-right: 6em;
   font-size: 2em;
   font-weight: 300;
   margin-top: 1em;
@@ -203,14 +173,15 @@ a:hover {
 }
 
 ul#horizontal-list li {
+  font-family: Din;
   display: inline;
   color: rgb(123, 22, 29);
 }
 
 #horizontal-list {
   padding-left: 0;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 12em;
+  margin-right: 12em;
   margin-top: 2em;
 }
 
@@ -228,6 +199,43 @@ a[rel="tag"] {
   float: left;
   text-align: left;
   padding: 5px;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    /*     padding-top: 1.1em;
+    font-size: 0.9em; */
+  }
+  .navbar-brand {
+    padding-top: 0;
+    margin-right: 0;
+  }
+  #footer-container {
+    text-align: center !important;
+    padding-right: 0;
+  }
+  .blog-post > h2 {
+    font-family: Din;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 1em;
+  }
+  .blog-post > p {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  #horizontal-list {
+    padding-left: 0;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  #feature-image {
+    width: 100vw;
+    height: auto;
+  }
 }
 
 #mc_embed_signup .button:hover {
