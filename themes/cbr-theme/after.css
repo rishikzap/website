@@ -113,6 +113,19 @@ div.container {
   #footer-container {
     text-align: center !important;
   }
+
+  .foot-col {
+    padding-left: 0;
+  }
+
+  #mc_embed_signup .button {
+    margin-top: 1em;
+    width: 50%;
+  }
+
+  #mc_embed_signup input.email {
+    width: 75%;
+  }
 }
 
 a {
@@ -235,6 +248,23 @@ a[rel="tag"] {
   #feature-image {
     width: 100vw;
     height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-post > p {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
+  .blog-post > h2 {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+
+  #horizontal-list {
+    margin-left: 20em;
+    margin-right: 20em;
   }
 }
 
