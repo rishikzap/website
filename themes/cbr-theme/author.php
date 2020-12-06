@@ -19,26 +19,27 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
         </div>
     </div>
 </div>
-     
-<h2 id="featured">Featured</h2>
- 
- 
-         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<h3>
-<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title(); ?>">
-<?php the_title(); ?></a>
-</h3> 
-<?php the_excerpt(); ?>
- 
-<?php endwhile; 
- 
-// Previous/next page navigation.
-the_posts_pagination();
- 
- 
-else: ?>
-<p><?php _e('No posts by this author.'); ?></p>
- 
-<?php endif; ?>
+
+        <h2 id="featured">Featured</h2>
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <div class="mini">
+                    <?php echo get_the_post_thumbnail( $page->ID, 'thumbnail' ); ?>
+                    <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title(); ?>">
+                    <h3 class="title"><?php the_title(); ?></a>
+                    </h3> 
+                    <div class="excerpt"><?php the_excerpt(); ?></div>
+                </div>
+        <?php endwhile; 
+
+        
+        // Previous/next page navigation.
+        the_posts_pagination();
+        
+        
+        else: ?>
+        <p><?php _e('No posts by this author.'); ?></p>
+        
+        <?php endif; ?>
+
 
 <?php get_footer(); ?>

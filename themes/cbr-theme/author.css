@@ -8,6 +8,7 @@
   color: rgb(123, 22, 29);
   font-family: Din;
   font-size: 3em;
+  font-weight: 300;
 }
 
 #author-descrip {
@@ -28,4 +29,19 @@
   font-family: Din;
   font-size: 3em;
   margin-left: 2em;
+  font-weight: 300;
+}
+
+.mini {
+  display: block;
+}
+
+.title {
+  font-family: Din;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.excerpt > p {
+  font-weight: 200;
 }
