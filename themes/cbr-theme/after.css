@@ -127,6 +127,10 @@ div.container {
   #mc_embed_signup input.email {
     width: 75%;
   }
+
+  .navbar-toggler {
+    margin-left: 1em;
+  }
 }
 
 a {
