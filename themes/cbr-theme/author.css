@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Din;
+  src: url(D-DIN.otf);
+}
+
+#author-name {
+  margin-top: 1.5em;
+  color: rgb(123, 22, 29);
+  font-family: Din;
+  font-size: 3em;
+}
+
+#author-descrip {
+  margin-top: 2.5em;
+  margin-right: 3.5em;
+}
+
+.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5em;
+}
+
+#featured {
+  margin-top: 1em;
+  color: rgb(123, 22, 29);
+  font-family: Din;
+  font-size: 3em;
+  margin-left: 2em;
+}
