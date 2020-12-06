@@ -126,10 +126,6 @@ div.container {
   #mc_embed_signup input.email {
     width: 75%;
   }
-
-  .navbar-toggler {
-    margin-left: 1em;
-  }
 }
 
 a {
@@ -153,24 +149,6 @@ a {
 
 .navbar-collapse.in {
   display: block !important;
-}
-
-.blog-post > p {
-  margin-left: 12em;
-  margin-right: 12em;
-}
-
-.blog-post > p {
-  font-family: Caslon;
-}
-
-.blog-post > h2 {
-  font-family: Din;
-  margin-left: 6em;
-  margin-right: 6em;
-  font-size: 2em;
-  font-weight: 300;
-  margin-top: 1em;
 }
 
 .col-sm-12 {
@@ -197,9 +175,6 @@ ul#horizontal-list li {
 
 #horizontal-list {
   padding-left: 0;
-  margin-left: 12em;
-  margin-right: 12em;
-  margin-top: 2em;
 }
 
 a[rel="tag"] {
@@ -227,23 +202,6 @@ a[rel="tag"] {
     text-align: center !important;
     padding-right: 0;
   }
-  .blog-post > h2 {
-    font-family: Din;
-    margin-left: 2em;
-    margin-right: 2em;
-    font-size: 1.5em;
-    font-weight: 300;
-    margin-top: 1em;
-  }
-  .blog-post > p {
-    margin-left: 3em;
-    margin-right: 3em;
-  }
-  #horizontal-list {
-    padding-left: 0;
-    margin-left: 3em;
-    margin-right: 3em;
-  }
 
   #feature-image {
     width: 100vw;
@@ -252,21 +210,12 @@ a[rel="tag"] {
 
 }
 
-@media (min-width: 1200px) {
-  .blog-post > p {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
 
-  .blog-post > h2 {
-    margin-left: 10em;
-    margin-right: 10em;
-  }
-
-  #horizontal-list {
-    margin-left: 20em;
-    margin-right: 20em;
-  }
+@media (min-width: 576px) {
+	.col-sm-8 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
 }
 
 #mc_embed_signup .button:hover {

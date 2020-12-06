@@ -1,13 +1,11 @@
 .author-page {
-  margin-left: 6em;
-  margin-right: 6em;
-}
-
-@media (max-width: 1200px) {
-	.author-page {
-	  margin-left: 2em;
-	  margin-right: 2em;
-	}
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  width: 90%;
 }
 
 @font-face {
@@ -25,23 +23,20 @@
 
 #author-descrip {
   margin-top: 2.5em;
-  margin-right: auto;
 }
 
 .img-responsive {
   display: block;
-  margin-left: auto;
-  margin-right: 1.5em;
-  padding: 1.5em;
   margin-top: 2em;
   float: left;
 }
+
 
 #featured {
   margin-top: 1em;
   color: rgb(123, 22, 29);
   font-family: Din;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 300;
 }
 
@@ -52,10 +47,56 @@
 
 .title {
   font-family: Din;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 300;
 }
 
 .excerpt > p {
   font-weight: 200;
+}
+
+@media (max-width: 1200px) {
+	.author-page {
+		padding-left: 2em;
+  		padding-right: 2em;
+	}
+	
+	.img-responsive {
+		display: block;
+		margin-top: 0;
+		padding-right: 5em;
+		padding-bottom: 5em;
+	}
+	
+	#author-name {
+  		font-size: 2.5em;
+	}
+	
+	#featured {
+	  margin-top: 0;
+	  color: rgb(123, 22, 29);
+	  font-family: Din;
+	  font-size: 2rem;
+	  font-weight: 300;
+	}
+
+	.title {
+	  font-family: Din;
+	  font-size: 2em;
+	  font-weight: 300;
+	}
+
+}
+
+@media (max-width: 767.98px) {
+	.img-responsive {
+		display: block;
+		margin-top: 0;
+		padding-right: 5em;
+		padding-bottom: 5em;
+	}
+	
+	#author-name {
+  		margin-top: 0;
+	}
 }

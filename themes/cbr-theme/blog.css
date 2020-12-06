@@ -1,9 +1,17 @@
 /*
  * Globals
  */
+@font-face {
+  font-family: Caslon;
+  src: url(ACaslonPro-Regular.otf);
+}
+
+@font-face {
+  font-family: Din;
+  src: url(D-DIN.otf);
+}
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
 }
 
@@ -20,7 +28,7 @@ h5,
 h6,
 .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Din;
   font-weight: normal;
   color: #333;
 }
@@ -129,7 +137,14 @@ h6,
  */
 
 .blog-post {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  width: 80%;
 }
 .blog-post-title {
   margin-bottom: 5px;
@@ -138,6 +153,34 @@ h6,
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
+}
+.blog-post > p {
+  font-family: Caslon;
+}
+
+.blog-post > h2 {
+  font-family: Din;
+}
+
+@media (max-width: 1200px) {
+  .blog-post {
+  	padding-left: 5em;
+  	padding-right: 5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .blog-post {
+	padding-left: 0em;
+  	padding-right: 0em;
+	width: default;
+  }
+  .blog-post > h2 {
+    font-family: Din;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 1em;
+  }
 }
 
 /*
