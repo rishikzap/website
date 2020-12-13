@@ -29,6 +29,8 @@
 
 		<link href="<?php echo get_bloginfo('template_directory'); ?>/blog.css" rel="stylesheet"> 
 
+<!-- 		Currently only showing latest 3 as features
+			Note: in future, want featured 3 to be featured articles	-->
 		<div class="row">
 			<?php if (have_posts()): $counter = 0; ?>
 				<?php while (have_posts()): the_post(); $counter++; ?>
