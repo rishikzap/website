@@ -1,3 +1,14 @@
+@font-face {
+  font-family: Din;
+  src: url(D-DIN.otf);
+}
+
+.bg-color {
+	width: 100%;
+	height: 22%;
+	background-color: #F3DC9F;
+}
+
 .author-page {
   margin-left: auto;
   margin-right: auto;
@@ -8,15 +19,10 @@
   width: 90%;
 }
 
-@font-face {
-  font-family: Din;
-  src: url(D-DIN.otf);
-}
-
 #author-name {
   margin-top: 1em;
-  color: rgb(123, 22, 29);
-  font-family: Din;
+/*   color: rgb(123, 22, 29); */
+  font-family: Caslon;
   font-size: 3.5em;
   font-weight: 300;
 }
@@ -30,7 +36,6 @@
   margin-top: 2em;
   float: left;
 }
-
 
 #featured {
   margin-top: 1em;
@@ -56,6 +61,10 @@
 }
 
 @media (max-width: 1200px) {
+	.bg-color {
+		height: 18%;
+	}
+	
 	.author-page {
 		padding-left: 2em;
   		padding-right: 2em;
@@ -89,6 +98,11 @@
 }
 
 @media (max-width: 767.98px) {
+	.bg-color {
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	
 	.img-responsive {
 		display: block;
 		margin-top: 0;
